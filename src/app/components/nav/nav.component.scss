@@ -1,0 +1,64 @@
+
+nav {
+    
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 3%;
+
+
+    & ul {
+
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+       width: 100%;
+
+    }
+
+
+    & a {
+       
+        color: aliceblue;
+        
+        
+        
+        
+
+       
+        
+        
+
+        &:hover{
+            color: red;
+            text-decoration: underline;
+        }
+    }
+
+    
+
+    img {
+        height: 100%;
+        
+        margin-left: 3%;
+
+    }
+
+   
+
+    
+
+
+
+
+}
+
+// .sol{
+
+//     background: none;
+//     border: none;
+//     width: 150px;
+//     height: 150px;
+//     font-size: 100px;}

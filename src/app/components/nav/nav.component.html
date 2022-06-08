@@ -1,0 +1,15 @@
+<header>
+    <nav>
+        <img src="{{navInfo.logo.src}}" alt="{{navInfo.logo.alt}}">
+       <ul>
+           <li *ngFor= "let element of navInfo.links">
+               <a href="{{element.link}}">{{element.text}}</a>
+
+
+           </li>
+       </ul>
+       <!-- <div>
+           <button (click) = "modonoche()" class="sol">{{btnText}}</button>
+       </div> -->
+    </nav>
+</header>

@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Montserrat+Alternates:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    
+    font-family: 'Cantarell', sans-serif;
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+
+
+
+}
+
+// body.ligth-theme{
+    
+//     --text-color: black;
+//     --background-color: seashell;
+
+// }
+
+// body {
+
+//     background-color: var(--background-color);
+//     color: var(--text-color);
+//     transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+
+// }

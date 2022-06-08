@@ -1,0 +1,9 @@
+<section class="hero">
+    <h2>{{heroInfo.title}}</h2>
+   
+    <ul>
+        <li *ngFor = "let film of heroInfo.films">
+            <img src="{{film.src}}" alt="{{film.alt}}"/>
+        </li>
+    </ul>
+</section>
